@@ -18,14 +18,14 @@ export const botConfig = {
     // 0 = Playing
     // 1 = Streaming
     // 2 = Listening
-    // 3 = Watching
+    // 3 = Watching CH0S3N's latest vid
     // 4 = Custom
     // 5 = Competing
     activities: [
       {
         name: "Custom Status", // required by Discord API, not shown in the client
         state: "stalking",     // this is what people actually see
-        type: 4,               // Custom
+        type: 3,               // Watching CH0S3N's latest vid
       },
     ],
   },
@@ -93,8 +93,8 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699",
-      secondary: "#2F3136",
+      primary: "#8B0000",
+      secondary: "#000000",
 
       // Standard status colors for success/error/warning/info messages.
       success: "#57F287",
@@ -141,7 +141,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "CH0S3N",
       // Footer icon URL (null = no icon).
       icon: null,
     },
